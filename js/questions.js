@@ -358,84 +358,170 @@ let questions = [
   },
 
    //Question 16
-  {
+ {
     numb: 16,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
-    options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language",
-    ],
+    question: {
+      en: "Driving can be affected by: ?",
+      tr: "Sürüş, aşağıdakilerden etkilenebilir: ?",
+    },
+    answer: 3,
+    options: {
+      en: [
+      "prescription drugs",
+      "illegal drugs",
+      "no drugs, only alcohol",
+      "both a and b  ",
+      ],
+      tr: [
+        "reçeteli ilaçlar",
+        "yasadışı ilaçlar",
+        "Uyuşturucu yok, sadece alkol",
+        "hem a hem de b",
+      ],
+    },
   },
 
    //Question 17
   {
     numb: 17,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
-    options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language",
-    ],
+    question: {
+      en: "If you turn the steering wheel to the right while in reverse, the rear of the car will",
+      tr: "Direksiyon simidini geri viteste iken saga çevirirseniz, aracın arkası.",
+    },
+    answer: 0,
+    options: {
+      en: [
+      
+      "go to the right",
+      "go to the left",
+      "go straight",
+      "none of the above",
+      ],
+      tr: [
+        "Sağa gider",
+        "Sola gider",
+        "düz gider",
+        "Yukarıdakilerin hiçbiri",
+      ],
+    },
   },
+
+  //Question 18
   {
     numb: 18,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
-    options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language",
-    ],
+    question: {
+      en: "The purpose of a deceleration lane is:",
+      tr: "Bir yavaşlama şeridinin amacı şöyledir:",
+    },
+    answer: 2,
+    options: {
+      en: [
+      "to allow the driver to slow down when approaching a highway",
+      "to allow the driver to speed up when approaching a highway",
+      "to allow the driver to slow down when leaving a highway/expressway",
+      "all of the above",
+      ],
+      tr: [
+        "otobana yaklaşırken sürücünün yavaşlamasına izin vermek",
+        "sürücünün bir karayoluna yaklaşırken hız kazanmasına izin vermek",
+        "bir otoyol / otoyoldan ayrılırken sürücünün yavaşlamasına izin vermek",
+        "Yukarıdakilerin hepsi",
+      ],
+    },
   },
+
+  //Question 19
   {
     numb: 19,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
-    options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language",
-    ],
+    question: {
+      en: "If the brakes fail to stop your car, you should:",
+      tr: "Frenler aracınızı durdurmazsa, şunları yapmalısınız:",
+    },
+    answer: 1,
+    options: {
+      en: [
+      "put the car into park",
+      "turn the car off",
+      "turn quickly off the road way",
+      "put your car into a lower gear and pump your brakes",
+      ],
+      tr: [
+        "arabayı parka koy",
+        "arabayı kapat",
+        "yol yolundan hızlıca dön",
+        "arabanızı daha düşük bir vitese koyun ve frenlerinizi pompalayın",
+      ],
+    },
   },
+
+  //Question 20
   {
     numb: 20,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
-    options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language",
-    ],
+    question: {
+      en: "You have to notify MVC of a name change within",
+      tr: "MVC'ye bir isim değişikliği bildirmek zorundasınız.",
+    },
+    answer: 2,
+    options: {
+      en: [
+      "60 days",
+      "one week",
+      "two weeks",
+      "none of the above",
+      ],
+      tr: [
+        "60 gün",
+        "bir hafta",
+        "iki hafta",
+        "Yukarıdakilerin hiçbiri",
+      ],
+    },
   },
+  //Question 21
   {
     numb: 21,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
-    options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language",
-    ],
+    question: {
+      en: "The fastest way to get sober is :",
+      tr: "Ayıkmak için en hızlı yol şu şekildedir:",
+    },
+    answer: 3,
+    options: {
+      en: [
+      "eat a large meal",
+      "drink a lot of water",
+      "drink coffee",
+      "time",
+      ],
+      tr: [
+        "büyük bir yemek ye",
+        "Çok su iç",
+        "kahve içmek",
+        "zaman",
+      ],
+    },
   },
+ //Question 22
   {
-    numb: 13,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
-    options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language",
-    ],
+    numb: 22,
+    question: {
+      en: "It is the law to yield",
+      tr: "Yol Verilmesi yasadır.",
+    },
+    answer: 3,
+    options: {
+      en: [
+      "when pedestrians are in a cross walk",
+      "when behind a vehicle yielding to pedestrians",
+      "when there is a stop sign",
+      "all of the above",
+      ],
+      tr: [
+        "yayalar yaya olarak yürürken",
+        "yayalara yol açan bir araç",
+        "Bir dur işareti olduğunda",
+        "Yukarıdakilerin hepsi",
+      ],
+    },
   },
   // you can uncomment the below codes and make duplicate as more as you want to add question
   // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....

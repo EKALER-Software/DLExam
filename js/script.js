@@ -20,7 +20,7 @@ exit_btn.onclick = () => {
   info_box.classList.remove("activeInfo"); //hide info box
 };
 
-let timeValue = 10;
+let timeValue = 45;
 let que_count = 0;
 let que_numb = 1;
 let userScore = 0;

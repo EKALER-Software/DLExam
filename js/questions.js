@@ -308,38 +308,55 @@ let questions = [
       ],
     },
   },
-
   
    //Question 14
-  {
+   {
     numb: 14,
-    question:
-      "Who is responsible if a student commits a traffic offense?(15-Öğrenci trafik suçu işlerse sorumlu kimdir?)",
-    answer:
-      "Both the student and the accompanying instructor or licensed driver(Hem öğrenci hem de beraberindeki eğitmen veya lisanslı sürücü)",
-    options: [
-      "instructor (Egitmen)",
-      "Student (Ogrenci)",
-      "Both the student and the accompanying instructor or licensed driver(Hem öğrenci hem de beraberindeki eğitmen veya lisanslı sürücü)",
-      "Parents (Veliler)",
-    ],
+    question: {
+      en: "Who is responsible if a student commits a traffic offense?",
+      tr: "Öğrenci trafik suçu işlerse sorumlu kimdir?",
+    },
+    answer: 2,
+    options: {
+      en: [
+      "instructor ",
+      "Student ",
+      "Both the student and the accompanying instructor or licensed driver",
+      "Parents ",
+      ],
+      tr: [
+        "Egitmen",
+        "Ogrenci",
+        "Hem öğrenci hem de beraberindeki eğitmen veya lisanslı sürücü",
+        "Veliler",
+      ],
+    },
   },
 
    //Question 15
-  {
+   {
     numb: 15,
-    question:
-      "What is the proper lane to turn into when making a left turn? (Sola dönüş yapılırken gidilecek doğru şerit nedir?)",
-    answer:
-      "The lane nearest the center in the direction you are heading(Gittiğiniz yönde merkeze en yakın şerit)",
-    options: [
-      "The Right Lane (Sag Serit)",
-      "The lane nearest the center in the direction you are heading(Gittiğiniz yönde merkeze en yakın şerit)",
-      "The Left Lane ( Sol Serit)",
-      "It doesn't matter (Fark Etmez)",
-    ],
+    question: {
+      en: "Who is responsible if a student commits a traffic offense?",
+      tr: "Öğrenci trafik suçu işlerse sorumlu kimdir?",
+    },
+    answer: 1,
+    options: {
+      en: [
+      "The Right Lane ",
+      "The lane nearest the center in the direction you are heading",
+      "The Left Lane ",
+      "It doesn't matter ",
+      ],
+      tr: [
+        "Sag Serit",
+        "Gittiğiniz yönde merkeze en yakın şerit",
+        "Sol Serit",
+        "Fark Etmez",
+      ],
+    },
   },
-  
+
    //Question 16
   {
     numb: 16,
@@ -352,6 +369,8 @@ let questions = [
       "eXamine Multiple Language",
     ],
   },
+
+   //Question 17
   {
     numb: 17,
     question: "What does XML stand for?",

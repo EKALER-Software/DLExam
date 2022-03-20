@@ -264,28 +264,53 @@ let questions = [
   //Question 12
   {
     numb: 12,
-    question:
-      "Up to 3 points may be subtracted from your record if you receive no moving violations for how long? (Ne kadar süre hareket ihlali almazsanız rekorunuzdan 3 puan düşebilir?)",
-    answer: "1 Year(1 Yil)",
-    options: [
-      "3 Year(3 Yil)",
-      "1 Year(1 Yil)",
-      "5 Year(5 Yil)",
-      "2 Year(2 Yil)",
-    ],
+    question: {
+      en: "Up to 3 points may be subtracted from your record if you receive no moving violations for how long? ",
+      tr: "Ne kadar süre hareket ihlali almazsanız rekorunuzdan 3 puan düşebilir?",
+    },
+    answer: 1,
+    options: {
+      en: [
+      "3 Year",
+      "1 Year",
+      "5 Year",
+      "2 Year",
+      ],
+      tr: [
+        "(3 Yil)",
+        "(1 Yil)",
+        "(5 Yil)",
+        "(2 Yil)",
+      ],
+    },
   },
-  {
+
+ //Question 13
+ {
     numb: 13,
-    question:
-      "What is the penalty for refusing the breath test? (Nefes testini reddetmenin cezası nedir?)",
-    answer: "6 months suspension (first offense)(6 ay uzaklaştırma (ilk suç))",
-    options: [
-      "6 months suspension (first offense)(6 ay uzaklaştırma (ilk suç))",
-      "8 months suspension (first offense)(8 ay uzaklaştırma (ilk suç))",
-      "4 months suspension (first offense)(4 ay uzaklaştırma (ilk suç))",
-      "2 months suspension (first offense)(2 ay uzaklaştırma (ilk suç))",
-    ],
+    question: {
+      en: "What is the penalty for refusing the breath test? ",
+      tr: "Nefes testini reddetmenin cezası nedir?",
+    },
+    answer: 0,
+    options: {
+      en: [
+      "6 months suspension (first offense)",
+      "8 months suspension (first offense)",
+      "4 months suspension (first offense)",
+      "2 months suspension (first offense)",
+      ],
+      tr: [
+        "6 ay uzaklaştırma (ilk suç)",
+        "8 ay uzaklaştırma (ilk suç)",
+        "4 ay uzaklaştırma (ilk suç)",
+        "2 ay uzaklaştırma (ilk suç)",
+      ],
+    },
   },
+
+  
+   //Question 14
   {
     numb: 14,
     question:
@@ -299,6 +324,8 @@ let questions = [
       "Parents (Veliler)",
     ],
   },
+
+   //Question 15
   {
     numb: 15,
     question:
@@ -312,6 +339,8 @@ let questions = [
       "It doesn't matter (Fark Etmez)",
     ],
   },
+  
+   //Question 16
   {
     numb: 16,
     question: "What does XML stand for?",

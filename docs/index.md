@@ -1,37 +1,117 @@
-## Welcome to GitHub Pages
+<!-- Created By CodingNepal - www.codingnepalweb.com  -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Driver License Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- FontAweome CDN Link for Icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body class="en">
+    <!-- start Quiz button -->
+    <div class="start_btn"><button>Start Quiz (Sinavi Baslat)</button></div>
 
-You can use the [editor on GitHub](https://github.com/EKALER-Software/DLExam/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+    <!-- Info Box -->
+    <div class="info_box">
+      <div class="info-title"><span>Some Rules of this Quiz</span></div>
+      <div class="info-list">
+        <div class="info">
+          1. Her bir soru icin <span>45 saniye</span> sureniz var.
+        </div>
+        <div class="info">
+          2. Once you select your answer, it can't be undone.
+        </div>
+        <div class="info">
+          3. You can't select any option once time goes off.
+        </div>
+        <div class="info">
+          4. You can't exit from the Quiz while you're playing.
+        </div>
+        <div class="info">
+          5. You'll get points on the basis of your correct answers.
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="quit">Exit Quiz</button>
+        <button class="restart">Continue</button>
+      </div>
+    </div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+      <header>
+        <div class="title">Driver License Quiz</div>
+        <div class="timer">
+          <div class="time_left_txt">Time Left</div>
+          <div class="timer_sec">45</div>
+        </div>
+        <div class="time_line"></div>
+        <div class="LanguageTR&EN" style="align-items: center">
+          <button class="usbtn" id="usbtn" onclick="changeLan('en')">
+            <img
+              src="/Img/US Flag.png"
+              alt="Turkey Flag"
+              style="
+                padding-top: 5px;
+                padding-left: 3px;
+                padding-right: 3px;
+                height: 42px;
+                width: 62px;
+              "
+            />
+          </button>
+          <button class="trbtn" id="trbtn" onclick="changeLan('tr')">
+            <img
+              src="/Img/Turkey Flag.png"
+              alt="Turkey Flag"
+              style="padding-top: 5px; padding-left: 3px; padding-right: 3px"
+            />
+          </button>
+        </div>
+      </header>
+      <section>
+        <div class="que_text">
+          <!-- Here I've inserted question from JavaScript -->
+        </div>
 
-### Markdown
+        <div class="option_list">
+          <!-- Here I've inserted options from JavaScript -->
+        </div>
+      </section>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+      <!-- footer of Quiz Box -->
+      <footer>
+        <div class="total_que">
+          <!-- Here I've inserted Question Count Number from JavaScript -->
+        </div>
+        <button class="next_btn">Next Que</button>
+      </footer>
+    </div>
 
-```markdown
-Syntax highlighted code block
+    <!-- Result Box -->
+    <div class="result_box">
+      <div class="icon">
+        <i class="fas fa-crown"></i>
+      </div>
+      <div class="complete_text">You've completed the Quiz!</div>
+      <div class="score_text">
+        <!-- Here I've inserted Score Result from JavaScript -->
+      </div>
+      <div class="buttons">
+        <button class="restart">Replay Quiz</button>
+        <button class="quit">Quit Quiz</button>
+      </div>
+    </div>
 
-# Header 1
-## Header 2
-### Header 3
+    <!-- Inside this JavaScript file I've inserted Questions and Options only -->
+    <script src="js/questions.js"></script>
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/EKALER-Software/DLExam/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    <!-- Inside this JavaScript file I've coded all Quiz Codes -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

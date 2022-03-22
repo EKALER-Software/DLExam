@@ -404,14 +404,17 @@ footer button.show {
   background: rgba(255, 255, 255, 0);
   border: #004085;
   border-radius: 5px;
+  padding: auto;
 }
 .usbtn {
   background: rgba(255, 255, 255, 0);
   border: #004085;
   border-radius: 5px;
+  padding: auto;
 }
 .TurkeyFlag {
   padding-top: 0.3rem;
   padding-left: 0.3rem;
+  padding: auto;
   height: 30px;
 }
